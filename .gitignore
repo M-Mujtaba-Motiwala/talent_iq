@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Environment
+.env
+*.env
+!.env.example
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite3
