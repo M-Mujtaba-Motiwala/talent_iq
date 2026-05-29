@@ -861,7 +861,7 @@ export default function App() {
   const [onboarded, setOnboarded] = useState(false);
   const [page, setPage] = useState("dashboard");
   const [selectedJob, setSelectedJob] = useState(null);
-  const [appliedJobs, setAppliedJobs] = useState([]);
+  const [, setAppliedJobs] = useState([]);
 
   const handleApply = (job) => setAppliedJobs(p=>[...p,job.id]);
   const handleSchedule = () => setPage("scheduler");
