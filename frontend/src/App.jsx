@@ -1031,7 +1031,7 @@ const MockInterview = () => {
   const [loading, setLoading] = useState(false);
   const [role, setRole] = useState("ML Engineer Intern");
   const [jd, setJd] = useState("");
-  const [scores, setScores] = useState({ comm:0, tech:0, struct:0 });
+  const [scores] = useState({ comm:0, tech:0, struct:0 });
   const bottomRef = useRef();
 
   useEffect(()=>{ bottomRef.current?.scrollIntoView({behavior:"smooth"}); }, [messages,loading]);
